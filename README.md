@@ -1,15 +1,16 @@
 # ip_filter
 Homework 02 task. [OTUS C++]
 
-[![Build Status](https://travis-ci.org/DGolgovsky/ip_filter.svg?branch=master)](https://travis-ci.org/DGolgovsky/ip_filter) [![Coverage Status](https://coveralls.io/repos/github/DGolgovsky/ip_filter/badge.svg?branch=master)](https://coveralls.io/github/DGolgovsky/ip_filter?branch=master) [![Code Health](https://landscape.io/github/DGolgovsky/ip_filter/master/landscape.svg?style=flat)](https://landscape.io/github/DGolgovsky/ip_filter/master)
+[![Build Status](https://travis-ci.org/DGolgovsky/ip_filter.svg?branch=master)](https://travis-ci.org/DGolgovsky/ip_filter)
+[![Code Health](https://landscape.io/github/DGolgovsky/ip_filter/master/landscape.svg?style=flat)](https://landscape.io/github/DGolgovsky/ip_filter/master)
+[ ![Download](https://api.bintray.com/packages/dgolgovsky/otus-cpp/ip_filter/images/download.svg) ](https://bintray.com/dgolgovsky/otus-cpp/ip_filter/_latestVersion)
 
 The program reads the data from the standard input. The data is stored line by line.
 Each line consists of three fields separated by a single tabulation character and ends with an end-of-line character.
 ```
-text: 1 \ t text2 \ t text3 \ n
+text: 1 \t text2 \t text3 \n
 ```
 The `text2` and `text3` fields are ignored.
-
 The `text1` field has the following structure
 ```
 (ip4 address):
